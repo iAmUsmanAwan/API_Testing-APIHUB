@@ -55,6 +55,8 @@ const App = () => {
         </button>
       </form>
 
+      <h3>Only user.email@domain.com email is valid</h3>
+      
       {responseMessage && <p>{responseMessage}</p>}  {/* Display response message */}
     </div>
   );
